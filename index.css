@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    color: #2b283a;
+    font-size: 1rem;
+}
+
+h1{
+    font-size: 2.25rem;
+    margin: 0;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 1.25rem;
+    color: #d0aaff;
+    margin: 0;
+}
+
+p{
+    font-size: 1rem;
+}
+
+header {
+    background: #5f29a3;
+    color: whitesmoke;
+    padding: 45px 0;
+}
+
+section {
+    padding: 45px 0 ;
+}
+
+.purpleNFT{
+    width: 100%;
+}
