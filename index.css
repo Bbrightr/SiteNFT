@@ -5,9 +5,10 @@ body{
     font-size: 1rem;
 }
 
+/*-------------------------------TYPOGRAPHY-------------------------------*/
+
 h1{
     font-size: 2.25rem;
-    margin: 0;
 }
 
 h2 {
@@ -18,26 +19,86 @@ h2 {
 h3{
     font-size: 1.25rem;
     color: #d0aaff;
+}
+
+h1,
+h3{
     margin: 0;
 }
 
 p{
-    font-size: 1rem;
+    /* font-size: 1rem; */
+    line-height: 23px;
 }
 
-header {
-    background: #5f29a3;
+
+
+/*-------------------------------LINKS-------------------------------*/
+a {
+    color: #ef5839;
+    text-decoration-style: dotted;
+    /* border-bottom: 1px dotted #ef5839; */
+}
+
+a:hover,
+a:active{
+    color: #d4b44c;
+    /* border-bottom: 1px dotted #d4b44c; */
+
+}
+
+.btn{
+    padding: 10px 19px;
+    display: inline-block;
+    font-weight: 500;
+    border-radius: 4.6px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.btn:hover,
+.btn:active
+{
+    background-color: #f3e885;
+    color: #2b283a;
+}
+
+.btn-light,
+.btn-mid{
+    color: #5f29a3;
+
+}
+
+.btn-light {
+    background-color: whitesmoke;
+}
+
+.btn-mid{
+    background-color: #f0e0ff;;
+}
+
+.btn-dark {
+    background-color: #5f29a3;
     color: whitesmoke;
-    padding: 45px 0;
 }
 
-section {
-    padding: 45px 0 ;
-}
 
+
+/*-------------------------------LAYOUT-------------------------------*/
+
+header,
 .trueCrypto {
     background: #5f29a3;
     color: whitesmoke;
+}
+
+/* section {
+} */
+
+header,
+section,
+footer{
+    padding: 45px 0 ;
 }
 
 .container {
@@ -51,30 +112,17 @@ section {
 
 
 .nftIMG{
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: space-between;
 }
 
-.textimg {
-    width: 49%;
-    border-radius: 16px;
-}
-
 .img-img {
-    width: 49%;
-    border-radius: 16px;
+    width: 300px;
+    border-radius: 4.6px;
 }
 
-a {
-    color: #ef5839;
-    text-decoration-style: dotted;
-    /* border-bottom: 1px dotted #ef5839; */
-}
-
-a:hover,
-a:active{
-    color: #d4b44c;
-    /* border-bottom: 1px dotted #d4b44c; */
-
+footer {
+    text-align: center;
+    color: #5f29a3;
 }
