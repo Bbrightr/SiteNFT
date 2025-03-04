@@ -35,6 +35,46 @@ section {
     padding: 45px 0 ;
 }
 
+.trueCrypto {
+    background: #5f29a3;
+    color: whitesmoke;
+}
+
+.container {
+    width: 620px;
+    margin: 0 auto;
+}
+
 .purpleNFT{
     width: 100%;
+}
+
+
+.nftIMG{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textimg {
+    width: 49%;
+    border-radius: 16px;
+}
+
+.img-img {
+    width: 49%;
+    border-radius: 16px;
+}
+
+a {
+    color: #ef5839;
+    text-decoration-style: dotted;
+    /* border-bottom: 1px dotted #ef5839; */
+}
+
+a:hover,
+a:active{
+    color: #d4b44c;
+    /* border-bottom: 1px dotted #d4b44c; */
+
 }
