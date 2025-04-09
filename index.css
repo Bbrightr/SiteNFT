@@ -119,10 +119,11 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .img-img {
-    width: 49%;
+    /* width: 49%; */
     border-radius: 4.6px;
     margin-bottom: 5px;
 
